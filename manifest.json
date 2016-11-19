@@ -24,6 +24,8 @@
     "contentSettings",
     "history",
     "idle",
-    "notifications"
+    "notifications",
+    "activeTab",
+    "https://ajax.googleapis.com/"
   ]
 }
