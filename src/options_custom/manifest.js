@@ -1,46 +1,45 @@
-// SAMPLE
 this.manifest = {
     "name": "My Extension",
     "icon": "icon.png",
     "settings": [
         {
-            "tab": i18n.get("information"),
-            "group": i18n.get("login"),
+            "tab": i18n.get("information"), //tuition
+            "group": i18n.get("tuition"),
             "name": "username",
             "type": "text",
             "label": i18n.get("username"),
-            "text": i18n.get("x-characters")
+            "text": i18n.get("x-amount")
         },
         {
             "tab": i18n.get("information"),
-            "group": i18n.get("login"),
-            "name": "password",
-            "type": "text",
-            "label": i18n.get("password"),
-            "text": i18n.get("x-characters-pw"),
-            "masked": true
-        },
-        {
-            "tab": i18n.get("information"),
-            "group": i18n.get("login"),
+            "group": i18n.get("tuition"),
             "name": "myDescription",
             "type": "description",
-            "text": i18n.get("description")
+            "text": i18n.get("t-description")
+        },
+
+        {
+            "tab": i18n.get("information"), //semester beginning date
+            "group": i18n.get("semester"),
+            "name": "begDate",
+            "type": "text",
+            "label": i18n.get("begDate"),
+            "text": i18n.get("x-date"),
+        },
+        {
+            "tab": i18n.get("information"), //semester end date
+            "group": i18n.get("semester"),
+            "name": "password",
+            "type": "text",
+            "label": i18n.get("endDate"),
+            "text": i18n.get("x-date"),
         },
         {
             "tab": i18n.get("information"),
-            "group": i18n.get("logout"),
-            "name": "myCheckbox",
-            "type": "checkbox",
-            "label": i18n.get("enable")
-        },
-        {
-            "tab": i18n.get("information"),
-            "group": i18n.get("logout"),
-            "name": "myButton",
-            "type": "button",
-            "label": i18n.get("disconnect"),
-            "text": i18n.get("logout")
+            "group": i18n.get("semester"),
+            "name": "myDescription",
+            "type": "description",
+            "text": i18n.get("s-description")
         },
         {
             "tab": "Details",
@@ -70,56 +69,7 @@ this.manifest = {
                 return value + "%";
             }
         },
-        {
-            "tab": "Details",
-            "group": "Food",
-            "name": "myPopupButton",
-            "type": "popupButton",
-            "label": "Soup 1 should be:",
-            "options": {
-                "groups": [
-                    "Hot", "Cold",
-                ],
-                "values": [
-                    {
-                        "value": "hot",
-                        "text": "Very hot",
-                        "group": "Hot",
-                    },
-                    {
-                        "value": "Medium",
-                        "group": 1,
-                    },
-                    {
-                        "value": "Cold",
-                        "group": 2,
-                    },
-                    ["Non-existing"]
-                ],
-            },
-        },
-        {
-            "tab": "Details",
-            "group": "Food",
-            "name": "myListBox",
-            "type": "listBox",
-            "label": "Soup 2 should be:",
-            "options": [
-                ["hot", "Hot and yummy"],
-                ["cold"]
-            ]
-        },
-        {
-            "tab": "Details",
-            "group": "Food",
-            "name": "myRadioButtons",
-            "type": "radioButtons",
-            "label": "Soup 3 should be:",
-            "options": [
-                ["hot", "Hot and yummy"],
-                ["cold"]
-            ]
-        }
+
     ],
     "alignment": [
         [

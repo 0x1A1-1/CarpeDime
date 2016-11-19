@@ -1,4 +1,3 @@
-// SAMPLE
 this.i18n = {
     "settings": {
         "en": "Settings",
@@ -14,58 +13,36 @@ this.i18n = {
     },
     
     
-    
     "information": {
         "en": "Information",
-        "de": "Information"
     },
-    "login": {
-        "en": "Login",
-        "de": "Anmeldung"
+    "tuition": {
+        "en": "Tuition",
+    },
+    "semester": {
+        "en": "Semester",
     },
     "username": {
-        "en": "Username:",
-        "de": "Benutzername:"
+        "en": "Amount:",
     },
-    "password": {
-        "en": "Password:",
-        "de": "Passwort:"
+    "begDate": {
+        "en": "Beginning Date:",
     },
-    "x-characters": {
-        "en": "6 - 12 characters",
+    "endDate": {
+        "en": "End Date:",
+    },
+    "x-amount": {
+        "en": "value between 0 and 1 million",
         "de": "6 - 12 Zeichen"
     },
-    "x-characters-pw": {
-        "en": "10 - 18 characters",
-        "de": "10 - 18 Zeichen"
+    "x-date": {
+        "en": "MM/DD/YY",
     },
-    "description": {
-        "en": "This is a description. You can write any text inside of this.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-        
-        "de": "Das ist eine Beschreibung. Du kannst hier beliebigen Text einfügen.<br>\
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut\
-        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores\
-        et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem\
-        ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et\
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.\
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    "t-description": {
+        "en": "Please insert your tuition amount for a year of schooling!",
     },
-    "logout": {
-        "en": "Logout",
-        "de": "Abmeldung"
+    "s-description": {
+        "en": "Let us know how long one semester runs so we can better serve you!",
     },
-    "enable": {
-        "en": "Enable",
-        "de": "Aktivieren"
-    },
-    "disconnect": {
-        "en": "Disconnect:",
-        "de": "Trennen:"
-    }
+
 };
