@@ -26,7 +26,7 @@ function getCurrentTabUrl(callback) {
     callback(url);
   });
 
-  
+
 }
 
 
@@ -39,10 +39,10 @@ function renderStatus(statusText) {
 document.addEventListener('DOMContentLoaded', function() {
   getCurrentTabUrl(function(url) {
 
-      
+
     // Put the image URL in Google search.
     var currURL = extractDomain(url);
-    $("#currURL").html(currURL);
+    document.getElementById("currURL").innerHTML = currURL;
     console.log(currURL);
     for (var i=0; i < data.length; i++) {
       var item = data[i];
