@@ -1,2 +1,2 @@
-# -school
+# dollarSchool
 github repo for Wildhacks
