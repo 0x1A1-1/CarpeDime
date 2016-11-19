@@ -1,60 +1,63 @@
 window.addEvent("domready", function () {
-    // Option 1: Use the manifest:
+    /*// Option 1: Use the manifest:
     new FancySettings.initWithManifest(function (settings) {
         settings.manifest.myButton.addEvent("action", function () {
             alert("You clicked me!");
         });
-    });
+    });*/
     
     // Option 2: Do everything manually:
-    /*
+
     var settings = new FancySettings("My Extension", "icon.png");
     
-    var username = settings.create({
-        "tab": i18n.get("information"),
-        "group": i18n.get("login"),
+    var tuition = settings.create({
+        "tab": i18n.get("information"), //tuition
+        "group": i18n.get("tuition"),
         "name": "username",
         "type": "text",
         "label": i18n.get("username"),
-        "text": i18n.get("x-characters")
+        "text": i18n.get("x-amount")
     });
     
-    var password = settings.create({
+    var tDescription = settings.create({
         "tab": i18n.get("information"),
-        "group": i18n.get("login"),
-        "name": "password",
-        "type": "text",
-        "label": i18n.get("password"),
-        "text": i18n.get("x-characters-pw"),
-        "masked": true
-    });
-    
-    var myDescription = settings.create({
-        "tab": i18n.get("information"),
-        "group": i18n.get("login"),
+        "group": i18n.get("tuition"),
         "name": "myDescription",
         "type": "description",
-        "text": i18n.get("description")
+        "text": i18n.get("t-description")
+    });
+
+    var begDate = settings.create({
+        "tab": i18n.get("information"), //semester beginning date
+        "group": i18n.get("semester"),
+        "name": "begDate",
+        "type": "text",
+        "label": i18n.get("begDate"),
+        "text": i18n.get("x-date"),
+    });
+
+    var endDate = settings.create({
+        "tab": i18n.get("information"), //semester end date
+        "group": i18n.get("semester"),
+        "name": "password",
+        "type": "text",
+        "label": i18n.get("endDate"),
+        "text": i18n.get("x-date"),
     });
     
-    var myButton = settings.create({
-        "tab": "Information",
-        "group": "Logout",
-        "name": "myButton",
-        "type": "button",
-        "label": "Disconnect:",
-        "text": "Logout"
+    var sDescription = settings.create({
+        "tab": i18n.get("information"),
+        "group": i18n.get("semester"),
+        "name": "myDescription",
+        "type": "description",
+        "text": i18n.get("s-description")
     });
     
     // ...
     
-    myButton.addEvent("action", function () {
-        alert("You clicked me!");
-    });
-    
     settings.align([
-        username,
-        password
+        begDate,
+        endDate
     ]);
-    */
+    
 });
