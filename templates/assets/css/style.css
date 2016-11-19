@@ -8,7 +8,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 /* =============================================================
    CUSTOM STYLE SHEET : BY BINERY THEME
@@ -34,7 +34,23 @@ body {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('images/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(BurningMoney.jpg) no-repeat;
+    background-size: cover;
 }
 
 
@@ -69,7 +85,7 @@ body {
     color:rgba(89, 247, 0, 0.77);
     padding-right:10px;
     text-decoration:none;
-    
+
 }
 /* Modal Popup Class Style */
 
@@ -79,7 +95,6 @@ body {
 }
 /* Modal Popup Close Button */
 .back-btn {
-   background-color:#000000;
 }
 
 /* Google Map */
@@ -96,7 +111,6 @@ body {
 /* Navbar Style Change */
 
 .navbar-inverse {
-    background-color: rgba(52, 152, 219, 0.54);
     border-color: transparent;
 }
 
@@ -121,13 +135,10 @@ body {
 
  .modal-content {
     border-radius: 0px;
-    background-color: transparent;
-    background-color: rgba(52, 152, 219, 0.74);
 }
 
 .modal-header {
     color: white;
-    background-color: rgba(152, 215, 150, 0.30);
 }
 
     .modal-header h4 {
@@ -139,12 +150,10 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.48);
 }
 
 .modal-footer {
     margin-top: 0px;
-    background-color: rgba(152, 215, 150, 0.30);
 }
 
 
@@ -179,6 +188,18 @@ body {
     color:#fff;
 }
 
+.timer-text1 {
+    width: 250%;
+    margin: auto;
+    padding: 10px;
+    font-size:40px;
+    font-weight:800;
+    letter-spacing:5px;
+    color:#fff;
+}
+
+
+
 /* =============================================================
   MEDIA QUERIES
     ============================================================ */
@@ -189,6 +210,3 @@ body {
        font-size:40px;
     }
 }
-
-
-
