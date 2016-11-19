@@ -30,6 +30,7 @@
     "idle",
     "notifications",
     "activeTab",
+    "tabs",
     "https://ajax.googleapis.com/",
     "declarativeContent"
   ]
