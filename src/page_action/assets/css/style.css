@@ -1,210 +1,109 @@
-﻿
-
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
-
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-
-    ========================================================  */
-/* =============================================================
-   CUSTOM STYLE SHEET : BY BINERY THEME
-    ============================================================ */
-
-
 
 /* =============================================================
    GENERAL STYLES
     ============================================================ */
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size:14px;
-    font-weight:400;
+body{
+	height: 150px;
+	font-size: 100%;
+	margin:3px;
+	background: url("../../giphy.gif") no-repeat;
+}
+#mainPopup {
+	position: relative;
+	/*top: -175px;*/
+	height: 150px;
+	padding:15px;
+	width: 250px;
+	font-family:'Agency FB';
+	letter-spacing: 1px;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-family:'Agency FB';
+  font-size: 2em;
+}
+.row{
+  text-align: center;
 }
 
-
-
-/* Loading Image Class Style */
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-}
-
-
-
-/* Moving Icon Class Style */
-#movingicon {
-    margin-top:60px;
-    text-align:center;
-     vertical-align:central;
-    color:rgb(255, 153, 0);
-    font-weight:900;
-    font-size:80px;
-    letter-spacing:3px;
-}
-
-.icon-color{
-    color:rgba(89, 247, 0, 0.77);
-}
-
-.subscribe-icon{
-    color:white;
-    margin-right:10px;
-}
-
-/* Social Links Class Style */
-.social-links {
-    text-align:center;
-     vertical-align:central;
-     margin-top:40px;
-     margin-bottom:30px;
-}
-.social-links a {
-    color:rgba(89, 247, 0, 0.77);
-    padding-right:10px;
-    text-decoration:none;
-
-}
-/* Modal Popup Class Style */
-
-.mian-popup-body {
-    padding:5px 20px 20px 20px;
-     font-family: 'Open Sans', sans-serif;
-}
-/* Modal Popup Close Button */
-.back-btn {
-}
-
-/* Google Map */
-.mymap {
-    width:100%;
-    height:200px;
-    border:0px;
-
-}
 /* =============================================================
-    BOOTSTRAP COMONETS STYLE CHANGES
+    OTHERS
     ============================================================ */
 
-/* Navbar Style Change */
-
-.navbar-inverse {
-    border-color: transparent;
+#money{
+	font-size: 20px;
 }
-
- .navbar-inverse .navbar-nav > li > a {
-        color: #ffffff;
- }
-
-   .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-            color: #ffffff;
- }
-
-
- .navbar-inverse .navbar-brand {
-        color: #fff;
- }
-.navbar-brand {
-    font-size:30px;
-    font-weight:900;
+.money-number{
+  /*background-color: rgba(0, 0, 0, 0.4);*/
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
 }
-
- /* Modal Popup Style */
-
- .modal-content {
-    border-radius: 0px;
+.myButton {
+  background-color: rgba(0, 0, 0, 0.4);
+  -moz-border-radius:41px;
+  -webkit-border-radius:41px;
+  border-radius:41px;
+  border:2px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Agency FB';
+  letter-spacing: 1px;
+  font-size:15px;
+  font-weight:bold;
+  padding:3px 8px;
+  text-decoration:none;
+  position:relative;
+  left: 35px;
+  bottom: -10px;
 }
-
-.modal-header {
-    color: white;
+.myButton:hover {
+  background-color:black;
+  color:white;
 }
-
-    .modal-header h4 {
-        font-weight: 700;
-    }
-
-.modal-body {
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: white;
+.myButton:active {
+  position:relative;
+  top:1px;
 }
-
-.modal-footer {
-    margin-top: 0px;
-}
-
 
 /* =============================================================
    COUNTDOWN STYLES
     ============================================================ */
 
-#counter {
-   display: none;
-}
-#counter-default {
-}
-#counter-default .inner {
-    border: none;
-    margin: 3px 0;
-    padding: 3px;
-
-}
 #counter-default .timer-number {
+  float: left;
   text-align: center;
-    font-size: 25px;
-    margin-bottom: 10px;
-    font-weight: 900;
-    font-family:'Agency FB';
-    color:#fff;
-    line-height: 1;
-    background-color: rgba(0, 0, 0, 0.4);
+  font-size: 21px;
+  font-weight: 900;
+  font-family:'Agency FB';
+  color:#fff;
+  line-height: 1;
+  padding: 1.5px;
+  padding-left: 16px;
 }
-#counter-default  .timer-text {
+.timer-text{
   text-align: center;
-    font-size:8px;
-    font-weight:800;
-    letter-spacing:2px;
-    color:#fff;
-    background-color: rgba(0, 0, 0, 0.4);
+  padding: 3px;
+  float: left
 }
 
-.timer-text1 {
-
-  text-align: center;
-    font-size:11px;
-    font-weight:800;
-    letter-spacing:2px;
-    color:#fff;
-    background-color: rgba(0, 0, 0, 0.4);
-
+.timer-text1{
+  font-size: 10px;
 }
 
-video#bgvid {
-    max-width: 30%;
-    max-height: 30%;
-    width: auto;
-    height: auto;
-    position: relative;
-    top:0px;
-    z-index: -100;
-
-    background: url(BurningMoney.jpg) no-repeat;
-    background-size: cover;
+.timer-text2{
+  font-size: 20px;
+  float: left;
+  position: relative;
+  right: -100px;
 }
 
 /* =============================================================
   MEDIA QUERIES
     ============================================================ */
-
 
 @media (max-width: 487px) {
     #headLine {

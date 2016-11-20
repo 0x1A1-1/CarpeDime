@@ -1,127 +1,5 @@
 <!doctype html>
-
-
-<style type="text/css">
-	body{
-		height: 150px;
-		font-size: 100%;
-		margin:3px;
-		background: url(giphy.gif) no-repeat;
-	}
-	#mainPopup {
-		position: relative;
-		/*top: -175px;*/
-		height: 150px;
-		padding:15px;
-		width: 250px;
-		font-family:'Agency FB';
-		letter-spacing: 1px;
-		color: white;
-		background: rgba(0, 0, 0, 0.5);
-	}
-	#counter-default .timer-number {
-		float: left;
-	  text-align: center;
-    font-size: 21px;
-    font-weight: 900;
-    font-family:'Agency FB';
-    color:#fff;
-    line-height: 1;
-    /*background-color: rgba(0, 0, 0, 0.4);*/
-		padding: 1.5px;
-		padding-left: 16px;
-	}
-
-	.money-number{
-		/*background-color: rgba(0, 0, 0, 0.4);*/
-		font-size: 20px;
-		font-weight: 900;
-		text-align: center;
-	}
-
-	h1 {
-		font-family:'Agency FB';
-		font-size: 2em;
-	}
-	.row{
-		text-align: center;
-	}
-	.timer-text{
-		/*background-color: rgba(0, 0, 0, 0.4);*/
-		text-align: center;
-		padding: 3px;
-		float: left
-	}
-	#money{
-		font-size: 20px;
-	}
-	.timer-text1{
-		/*background-color: rgba(0, 0, 0, 0.4);*/
-		font-size: 10px;
-	}
-
-	.timer-text2{
-		font-size: 20px;
-		float: left;
-		position: relative;
-		right: -100px;
-	}
-
-	/*video#bgvid {
-	    position: relative;
-			top: -8px;
-	    left: -8px;
-	    max-width: 280px;
-	    max-height: : 300px;
-			z-index: -100;
-	    background: url(polina.jpg) no-repeat;
-	    background-size: cover;
-		}*/
-		.myButton {
-			background-color: rgba(0, 0, 0, 0.4);
-			-moz-border-radius:41px;
-			-webkit-border-radius:41px;
-			border-radius:41px;
-			border:2px solid #ffffff;
-			display:inline-block;
-			cursor:pointer;
-			color:#ffffff;
-			font-family:'Agency FB';
-			letter-spacing: 1px;
-			font-size:15px;
-			font-weight:bold;
-			padding:3px 8px;
-			text-decoration:none;
-			position:relative;
-			left: 35px;
-			bottom: -10px;
-		}
-		.myButton:hover {
-		background-color:black;
-		color:white
-		}
-		.myButton:active {
-		position:relative;
-		top:1px;
-		}
-
-
-
-/*	video#bgvid {
-	    max-width:280px;
-	    max-height: 300px;
-	    width: auto;
-	    height: auto;
-	    top:0px;
-	    background: url(BurningMoney.jpg) no-repeat;
-	    background-size: cover;
-	}*/
-</style>
-
-
-<!-- <video playsinline autoplay muted loop poster="giphy.gif" id="bgvid"> -->
-
-</video>
+<link rel="stylesheet" href="assets/css/style.css">
 
 <div id="mainPopup">
 	<div class="col-md-8 col-md-offset-2" >
@@ -171,7 +49,7 @@
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 
-																<div id="seconds" class="timer-number">10</div>
+																<div id="seconds" class="timer-number">00</div>
 																<div class="timer-text">secs</div>
 														</div>
 												</div>
@@ -201,11 +79,8 @@
 <script src="assets/plugins/bootstrap.js"></script>
 <!-- COUNTDOWN SCRIPTS -->
 <!--/.<script src="assets/plugins/jquery.countdown.js"></script>   -->
-<script type ="text/javascript" src="assets/js/countup.js"></script>
-<!-- VEGAS SLIDESHOW SCRIPTS -->
-<!--<script src="assets/plugins/vegas/jquery.vegas.min.js"></script> -->
+<script src="assets/js/countup.js"></script>
  <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom-image.js"></script>
-	<script src="page_action.js">
-  </script>
+<script src="page_action.js"></script>
 <script src="../../js/popup.js"></script>
