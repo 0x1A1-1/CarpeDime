@@ -31,9 +31,8 @@ function getCurrentTabUrl(callback) {
 
 
 function renderStatus(statusText) {
-
   console.log("renderStatus is loading");
-  document.getElementById('status').textContent = statusText;
+  //document.getElementById('status').textContent = statusText;
 }
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -1,33 +1,150 @@
 <!doctype html>
+
+
+
+<!--/. CONTACT MODAL POPUP DIV-->
+ <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+ <!-- CORE JQUERY  -->
+<script src="assets/plugins/jquery-1.10.2.js"></script>
+ <!-- BOOTSTRAP CORE SCRIPT   -->
+<script src="assets/plugins/bootstrap.js"></script>
+<!-- COUNTDOWN SCRIPTS -->
+<script src="assets/plugins/jquery.countdown.js"></script>
+<script src="assets/js/countdown.js"></script>
+<!-- VEGAS SLIDESHOW SCRIPTS -->
+<!--<script src="assets/plugins/vegas/jquery.vegas.min.js"></script> -->
+ <!-- CUSTOM SCRIPTS -->
+<script src="assets/js/custom-image.js"></script>
+	<script>
+  </script>
+<script src="../../js/popup.js"></script>
 <style type="text/css">
+	body{
+		height: 150px;
+	}
 	#mainPopup {
+		position: relative;
+		top: -175px;
 		padding: 10px;
 		height: 150px;
 		width: 250px;
-		font-family: Helvetica, Ubuntu, Arial, sans-serif;
-		background-image: url("cash.png");
-		background-size: cover;
+		font-family:'Agency FB';
+		letter-spacing: 1px;
 		color: white;
 	}
+	#counter-default .timer-number {
+		float: left;
+	  text-align: center;
+	    font-size: 19px;
+	    font-weight: 900;
+	    font-family:'Agency FB';
+	    color:#fff;
+	    line-height: 1;
+	    background-color: rgba(0, 0, 0, 0.4);
+			padding: 3px;
+			padding-left: 16px;
+	}
+
+	.money-number{
+		background-color: rgba(0, 0, 0, 0.4);
+		font-size: 20px;
+		font-weight: 900;
+		text-align: center;
+	}
+
 	h1 {
+		font-family:'Agency FB';
 		font-size: 2em;
 	}
 	.row{
 		text-align: center;
 	}
-	.timer-text, .timer-text1{
+	.timer-text{
 		background-color: rgba(0, 0, 0, 0.4);
+		text-align: center;
+		padding: 3px;
+		float: left
 	}
+
+	.timer-text1{
+		background-color: rgba(0, 0, 0, 0.4);
+		font-size: 10px;
+	}
+
+	.timer-text2{
+		font-size: 20px;
+		float: left;
+		position: relative;
+		right: -100px;
+	}
+
+	video#bgvid {
+	    position: relative;
+			top: -8px;
+	    left: -8px;
+	    max-width: 280px;
+	    max-height: : 300px;
+			z-index: -100;
+	    background: url(polina.jpg) no-repeat;
+	    background-size: cover;
+		}
+		.myButton {
+			background-color: rgba(0, 0, 0, 0.4);
+			-moz-border-radius:41px;
+			-webkit-border-radius:41px;
+			border-radius:41px;
+			border:2px solid #ffffff;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:'Agency FB';
+			letter-spacing: 1px;
+			font-size:15px;
+			font-weight:bold;
+			padding:3px 8px;
+			text-decoration:none;
+			position:relative;
+			left: 60px;
+			bottom: -10px;
+		}
+		.myButton:hover {
+		background-color:black;
+		color:white
+		}
+		.myButton:active {
+		position:relative;
+		top:1px;
+		}
+
+
+
+/*	video#bgvid {
+	    max-width:280px;
+	    max-height: 300px;
+	    width: auto;
+	    height: auto;
+	    top:0px;
+	    background: url(BurningMoney.jpg) no-repeat;
+	    background-size: cover;
+	}*/
 </style>
+
+
+<video playsinline autoplay muted loop poster="giphy.gif" id="bgvid">
+
+</video>
+
 <div id="mainPopup">
 	<div class="col-md-8 col-md-offset-2" >
 			<div id="counter"></div>
 							<div id="counter-default" class="row">
 									<div class="col-md-3 col-sm-6 col-xs-12">
 											<div class="inner">
-													<div class="timer-text1" id ="currURL">
-													</div>
-													<div class="timer-text1">MONEY WASTED: $343</div>
+													<div class="timer-text1">SITE: EXAMPLESITE.COM</div>
+													<br/>
+													<div class="timer-text1">MONEY BURNED: </div>
+													<div class="timer-text2">$</div><div class = "money-number">343</div>
+													<br/>
 											</div>
 										</div>
 							</div>
@@ -50,29 +167,33 @@
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="hour-number" class="timer-number"></div>
-																<div class="timer-text">HOURS</div>
+																<div class="timer-text">hour</div>
 
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="minute-number" class="timer-number"></div>
-																<div class="timer-text">MINUTES</div>
+																<div class="timer-text">minute</div>
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="second-number" class="timer-number"></div>
-																<div class="timer-text">SECONDS</div>
+																<div class="timer-text">second</div>
 														</div>
 												</div>
 										</div>
 						</div>
 				 </div>
+				 <a href="#" class="myButton">I'm working</a>
 		 <!--END MAIN ROW SECTION -->
 		</div>
 </div>
-<div>
 
-<script src="./page_action.js"></script>
-<script src="./data.js"></script>
+
+
+
+ <!--/. ABOUT MODAL POPUP DIV-->
+
+ <!--/. SERVICES MODAL POPUP DIV-->

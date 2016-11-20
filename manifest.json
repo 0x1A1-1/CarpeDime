@@ -31,7 +31,13 @@
     "notifications",
     "activeTab",
     "tabs",
-    "https://ajax.googleapis.com/",
+    "https://ajax.googleapis.com/*",
+    "https://apis.google.com/js/*",
+    "https://docs.google.com/feeds/*",
+    "https://www.google.com/accounts/OAuthGetRequestToken",
+    "https://www.google.com/accounts/OAuthAuthorizeToken",
+    "https://www.google.com/accounts/OAuthGetAccessToken",
     "declarativeContent"
-  ]
+  ],
+  "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
 }
