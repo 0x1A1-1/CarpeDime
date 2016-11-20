@@ -91,9 +91,7 @@ function getImageUrl(searchTerm, callback, errorCallback) {
 function renderStatus(statusText) {
   document.getElementById('status').textContent = statusText;
 }
-$( document ).ready(function() {
-        alert("ha");
-    });
+
 document.addEventListener('DOMContentLoaded', function() {
   getCurrentTabUrl(function(url) {
     // Put the image URL in Google search.
