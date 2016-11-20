@@ -40,8 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
   getCurrentTabUrl(function(url) {
     //COUNTUP SETUP
 
-
-
     // Put the image URL in Google search.
     var currURL = extractDomain(url);
     document.getElementById("currURL").innerHTML = currURL;
@@ -74,4 +72,3 @@ function extractDomain(url) {
 
     return domain;
 }
-
