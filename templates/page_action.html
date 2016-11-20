@@ -2,6 +2,9 @@
 
 
 <style type="text/css">
+	body{
+		height: 150px;
+	}
 	#mainPopup {
 		position: relative;
 		top: -175px;
@@ -69,31 +72,32 @@
 	    background-size: cover;
 		}
 		.myButton {
-	background-color: rgba(0, 0, 0, 0.4);
--moz-border-radius:41px;
--webkit-border-radius:41px;
-border-radius:41px;
-border:2px solid #ffffff;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:'Agency FB';
-letter-spacing: 1px;
-font-size:9px;
-font-weight:bold;
-padding:3px 8px;
-text-decoration:none;
-position:relative;
-top: -210px;
-left: 105px;
-}
-.myButton:hover {
-background-color:transparent;
-}
-.myButton:active {
-position:relative;
-top:1px;
-}
+			background-color: rgba(0, 0, 0, 0.4);
+			-moz-border-radius:41px;
+			-webkit-border-radius:41px;
+			border-radius:41px;
+			border:2px solid #ffffff;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:'Agency FB';
+			letter-spacing: 1px;
+			font-size:15px;
+			font-weight:bold;
+			padding:3px 8px;
+			text-decoration:none;
+			position:relative;
+			left: 60px;
+			bottom: -10px;
+		}
+		.myButton:hover {
+		background-color:black;
+		color:white
+		}
+		.myButton:active {
+		position:relative;
+		top:1px;
+		}
 
 
 
@@ -107,6 +111,7 @@ top:1px;
 	    background-size: cover;
 	}*/
 </style>
+
 
 <video playsinline autoplay muted loop poster="giphy.gif" id="bgvid">
 
@@ -145,30 +150,30 @@ top:1px;
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="hour-number" class="timer-number"></div>
-																<div class="timer-text">HOURS</div>
+																<div class="timer-text">hour</div>
 
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="minute-number" class="timer-number"></div>
-																<div class="timer-text">MINUTES</div>
+																<div class="timer-text">minute</div>
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
 																<div id="second-number" class="timer-number"></div>
-																<div class="timer-text">SECONDS</div>
+																<div class="timer-text">second</div>
 														</div>
 												</div>
 										</div>
 						</div>
 				 </div>
+				 <a href="#" class="myButton">I'm working</a>
 		 <!--END MAIN ROW SECTION -->
 		</div>
 </div>
-<div>
-	<a href="#" class="myButton">I'm working</a>
+
 
 
 

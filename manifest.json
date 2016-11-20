@@ -1,5 +1,5 @@
 {
-  "name": "Dollar School",
+  "name": "Dolla School",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "dollar for school",
@@ -17,7 +17,7 @@
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
+    "default_title": "Dolla School",
     "default_popup": "src/page_action/page_action.html"
   },
   "chrome_url_overrides": {
