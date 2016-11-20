@@ -26,6 +26,8 @@ body {
     font-weight:400;
 }
 
+
+
 /* Loading Image Class Style */
 .loader {
     position: fixed;
@@ -36,22 +38,6 @@ body {
     z-index: 9999;
 }
 
-video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(BurningMoney.jpg) no-repeat;
-    background-size: cover;
-}
 
 
 /* Moving Icon Class Style */
@@ -165,40 +151,55 @@ video#bgvid {
    display: none;
 }
 #counter-default {
-    margin: 20px auto;
 }
 #counter-default .inner {
-    text-align: center;
     border: none;
-    margin: 8px 0;
-    padding: 8px;
+    margin: 3px 0;
+    padding: 3px;
+
 }
 #counter-default .timer-number {
-    font-size: 100px;
+  text-align: center;
+    font-size: 25px;
     margin-bottom: 10px;
     font-weight: 900;
     font-family:'Agency FB';
     color:#fff;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 #counter-default  .timer-text {
-    padding: 10px;
-    font-size:20px;
+  text-align: center;
+    font-size:8px;
     font-weight:800;
-    letter-spacing:5px;
+    letter-spacing:2px;
     color:#fff;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .timer-text1 {
-    width: 250%;
-    margin: auto;
-    padding: 10px;
-    font-size:40px;
+
+  text-align: center;
+    font-size:11px;
     font-weight:800;
-    letter-spacing:5px;
+    letter-spacing:2px;
     color:#fff;
+    background-color: rgba(0, 0, 0, 0.4);
+
 }
 
+video#bgvid {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+    position: relative;
+    top:0px;
+    z-index: -100;
 
+    background: url(BurningMoney.jpg) no-repeat;
+    background-size: cover;
+}
 
 /* =============================================================
   MEDIA QUERIES
