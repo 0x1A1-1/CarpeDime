@@ -5,11 +5,20 @@
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
-var rate = 1.29;
+var rate = 1.67;
 var money = document.getElementById("money");
 var duration = 0;
-setInterval(setTime, 1000);
+var interval = setInterval(setTime, 1000);
 
+// $("#counter-stop").click(function(){
+//   setInterval(setTime, 10000);
+//   clearInterval(interval);
+// });
+
+document.getElementById("counter-stop").addEventListener('click',function ()
+    {
+    clearInterval(interval);
+    }  );
 
 function setTime()
 {
