@@ -55,10 +55,10 @@ h1 {
   font-size:15px;
   font-weight:bold;
   padding:3px 8px;
+	margin-top: 15px;
   text-decoration:none;
   position:relative;
   left: 35px;
-  bottom: -10px;
 }
 .myButton:hover {
   background-color:black;

@@ -13,6 +13,21 @@ chrome.runtime.onInstalled.addListener(function() {
         conditions: [
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: { urlContains: "facebook" },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlContains: "reddit" },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlContains: "twitter" },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlContains: "youtube" },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlContains: "netflix" },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: { urlContains: "amazon" },
           })
         ],
         // And shows the extension's page action.
