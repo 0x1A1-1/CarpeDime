@@ -9,6 +9,7 @@
  *   is found.
  */
 
+
 function getCurrentTabUrl(callback) {
   // Query filter to be passed to chrome.tabs.query - see
   // https://developer.chrome.com/extensions/tabs#method-query
@@ -37,6 +38,8 @@ function renderStatus(statusText) {
 
 document.addEventListener('DOMContentLoaded', function() {
   getCurrentTabUrl(function(url) {
+    //COUNTUP SETUP
+
 
 
     // Put the image URL in Google search.
@@ -71,6 +74,4 @@ function extractDomain(url) {
 
     return domain;
 }
-function calculateMoneyLost(tuition, time) {
-  return tuition/time;
-}
+

@@ -129,7 +129,8 @@
 													<div class="timer-text1">SITE: EXAMPLESITE.COM</div>
 													<br/>
 													<div class="timer-text1">MONEY BURNED: </div>
-													<div class="timer-text2">$</div><div class = "money-number">343</div>
+													<div class="timer-text2">$</div>
+													<label id="money">0</label>
 													<br/>
 											</div>
 										</div>
@@ -152,21 +153,21 @@
 										<div id="counter-default" class="row">
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div id="hour-number" class="timer-number"></div>
+																<div id="hour-number"></div>
 																<div class="timer-text">hour</div>
 
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div id="minute-number" class="timer-number"></div>
-																<div class="timer-text">minute</div>
+																<div>Minutes: </div>
+																<label id="minutes">00</label>
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div id="second-number" class="timer-number"></div>
-																<div class="timer-text">second</div>
+																<div>Seconds: </div>
+																<label id="seconds">10</label>
 														</div>
 												</div>
 										</div>
@@ -194,8 +195,8 @@
  <!-- BOOTSTRAP CORE SCRIPT   -->
 <script src="assets/plugins/bootstrap.js"></script>
 <!-- COUNTDOWN SCRIPTS -->
-<script src="assets/plugins/jquery.countdown.js"></script>
-<script src="assets/js/countdown.js"></script>
+<!--/.<script src="assets/plugins/jquery.countdown.js"></script>   -->
+<script type ="text/javascript" src="assets/js/countup.js"></script>
 <!-- VEGAS SLIDESHOW SCRIPTS -->
 <!--<script src="assets/plugins/vegas/jquery.vegas.min.js"></script> -->
  <!-- CUSTOM SCRIPTS -->
