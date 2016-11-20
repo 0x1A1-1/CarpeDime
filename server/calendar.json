@@ -1,0 +1,828 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"p33sdhfsnq2qt00g\"",
+  "summary": "amrajan2@illinois.edu",
+  "updated": "2016-11-19T20:10:17.979Z",
+  "timeZone": "America\/Chicago",
+  "accessRole": "owner",
+  "defaultReminders": [
+    {
+      "method": "popup",
+      "minutes": 10
+    }
+  ],
+  "nextSyncToken": "CPjYv5fQtdACEPjYv5fQtdACGAU=",
+  "items": [
+    {
+      "kind": "calendar#event",
+      "etag": "\"2953781739768000\"",
+      "id": "85st742kh55g76ik6529nq8tq0",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=ODVzdDc0MmtoNTVnNzZpazY1MjlucTh0cTBfMjAxNjEwMjJUMDAzMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-10-19T15:26:35.000Z",
+      "updated": "2016-10-19T15:27:49.884Z",
+      "summary": "IV Large Group",
+      "location": "loft",
+      "colorId": "5",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-10-21T19:30:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-10-21T21:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161210T055959Z"
+      ],
+      "iCalUID": "85st742kh55g76ik6529nq8tq0@google.com",
+      "sequence": 1,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2955110162982000\"",
+      "id": "dbvk22uc39cmdv025518lee090",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=ZGJ2azIydWMzOWNtZHYwMjU1MThsZWUwOTBfMjAxNjEwMzFUMjEwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-29T01:52:00.000Z",
+      "updated": "2016-10-28T19:38:02.923Z",
+      "summary": "Orchestra",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-10-31T16:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-10-31T18:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161130T220000Z;BYDAY=MO,WE"
+      ],
+      "iCalUID": "dbvk22uc39cmdv025518lee090@google.com",
+      "sequence": 1,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.ssg5a7q9n6fmbg3sk38f4au270",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2955110364450000\"",
+      "id": "pqgledsr6alvoiaj7e41rve5ts",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=cHFnbGVkc3I2YWx2b2lhajdlNDFydmU1dHNfMjAxNjEwMjdUMTQzMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-19T13:08:52.000Z",
+      "updated": "2016-10-28T19:39:41.181Z",
+      "summary": "STAT 400 Lecture",
+      "location": "Armory 101",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-10-27T09:30:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-10-27T11:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161215T153000Z;BYDAY=TU,TH"
+      ],
+      "iCalUID": "pqgledsr6alvoiaj7e41rve5ts@google.com",
+      "sequence": 2,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.9123me1qg4l8tkmp2h8k3vcges",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2957139606378000\"",
+      "id": "fp44eaqpduf4is585rbocc18i0",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=ZnA0NGVhcXBkdWY0aXM1ODVyYm9jYzE4aTBfMjAxNjEwMTFUMDEwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-10-09T22:15:31.000Z",
+      "updated": "2016-11-08T01:50:03.189Z",
+      "summary": "Bible Study",
+      "colorId": "5",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-10-10T20:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-10-10T21:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161213T020000Z"
+      ],
+      "iCalUID": "fp44eaqpduf4is585rbocc18i0@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2957645276392000\"",
+      "id": "o3ctg01nv034goeiv96vascrvc",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=bzNjdGcwMW52MDM0Z29laXY5NnZhc2NydmNfMjAxNjEwMjBUMjMwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-10-15T23:42:27.000Z",
+      "updated": "2016-11-11T00:03:58.196Z",
+      "summary": "StudyBuddy Meeting",
+      "location": "Siebel",
+      "colorId": "6",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-10-20T18:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-10-20T19:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161209T000000Z;BYDAY=TH"
+      ],
+      "iCalUID": "o3ctg01nv034goeiv96vascrvc@google.com",
+      "sequence": 1,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.o3ctg01nv034goeiv96vascrvc",
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2958694811348000\"",
+      "id": "f55jkgg9ag6otm5c6or3n8thm4",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=ZjU1amtnZzlhZzZvdG01YzZvcjNuOHRobTRfMjAxNjA5MTVUMDEwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-14T15:59:48.000Z",
+      "updated": "2016-11-17T01:50:05.674Z",
+      "summary": "SIG Music",
+      "colorId": "10",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-14T20:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-14T21:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "EXDATE;TZID=America\/Chicago:20160928T200000",
+        "RRULE:FREQ=WEEKLY;UNTIL=20161208T020000Z;BYDAY=WE"
+      ],
+      "iCalUID": "f55jkgg9ag6otm5c6or3n8thm4@google.com",
+      "sequence": 1,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.f55jkgg9ag6otm5c6or3n8thm4",
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2958802808590000\"",
+      "id": "rpn56f92tc9a5mav3jl5tomo3s",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=cnBuNTZmOTJ0YzlhNW1hdjNqbDV0b21vM3NfMjAxNjA5MjlUMTYwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-29T15:14:54.000Z",
+      "updated": "2016-11-17T16:50:04.295Z",
+      "summary": "Lunch with Anusha",
+      "location": "Ikenberry Dining Center, 301 E Gregory Dr, Champaign, IL 61820, USA",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-29T11:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-29T12:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "EXDATE;TZID=America\/Chicago:20161006T110000",
+        "RRULE:FREQ=WEEKLY;UNTIL=20161208T170000Z;INTERVAL=1"
+      ],
+      "iCalUID": "rpn56f92tc9a5mav3jl5tomo3s@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2958875434000000\"",
+      "id": "m2hguqf0br3dks65at947nt14g",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=bTJoZ3VxZjBicjNka3M2NWF0OTQ3bnQxNGdfMjAxNjA5MzBUMDIwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-27T05:02:21.000Z",
+      "updated": "2016-11-18T02:55:17.000Z",
+      "summary": "FaceTime with Amy",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-29T21:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-29T22:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161211T055959Z;INTERVAL=1"
+      ],
+      "iCalUID": "m2hguqf0br3dks65at947nt14g@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2958958126022000\"",
+      "id": "9ipddu3626be3g9pr7u0o0dpqs",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=OWlwZGR1MzYyNmJlM2c5cHI3dTBvMGRwcXMgYW1yYWphbjJAaWxsaW5vaXMuZWR1",
+      "created": "2016-11-13T17:35:48.000Z",
+      "updated": "2016-11-18T14:24:23.011Z",
+      "summary": "WildHacks",
+      "colorId": "1",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "date": "2016-11-18"
+      },
+      "end": {
+        "date": "2016-11-21"
+      },
+      "transparency": "transparent",
+      "iCalUID": "9ipddu3626be3g9pr7u0o0dpqs@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": false,
+        "overrides": [
+          {
+            "method": "popup",
+            "minutes": 10
+          }
+        ]
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2951198257931000\"",
+      "id": "09s9fmtvqqea82kee7r57dvlm8",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=MDlzOWZtdHZxcWVhODJrZWU3cjU3ZHZsbThfMjAxNjA4MjRUMDAwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-19T13:12:19.000Z",
+      "updated": "2016-11-19T20:05:18.195Z",
+      "summary": "CS 196",
+      "description": "Class",
+      "location": "Siebel 1404",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-08-23T19:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-08-23T21:30:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20160906T235959Z;BYDAY=TU"
+      ],
+      "iCalUID": "09s9fmtvqqea82kee7r57dvlm8@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.09s9fmtvqqea82kee7r57dvlm8",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2954572432431000\"",
+      "id": "09s9fmtvqqea82kee7r57dvlm8_R20160928T000000",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=MDlzOWZtdHZxcWVhODJrZWU3cjU3ZHZsbThfUjIwMTYwOTI4VDAwMDAwMF8yMDE2MDkyOFQwMDAwMDBaIGFtcmFqYW4yQGlsbGlub2lzLmVkdQ",
+      "created": "2016-08-19T13:12:19.000Z",
+      "updated": "2016-11-19T20:05:18.195Z",
+      "summary": "CS 196",
+      "description": "Class",
+      "location": "Siebel 1404",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-27T19:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-27T21:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161214T010000Z;BYDAY=TU"
+      ],
+      "iCalUID": "09s9fmtvqqea82kee7r57dvlm8_R20160928T000000@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.09s9fmtvqqea82kee7r57dvlm8",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2951198225797000\"",
+      "id": "tqemjkc7pumu8gn39ip63cf0cc",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=dHFlbWprYzdwdW11OGduMzlpcDYzY2YwY2NfMjAxNjA4MjNUMTkwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-19T13:11:09.000Z",
+      "updated": "2016-11-19T20:05:56.035Z",
+      "summary": "STAT 400 Discussion",
+      "description": "Class",
+      "location": "Lincoln 1027",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-08-23T14:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-08-23T15:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20160906T185959Z;BYDAY=TU"
+      ],
+      "iCalUID": "tqemjkc7pumu8gn39ip63cf0cc@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.tqemjkc7pumu8gn39ip63cf0cc",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952237987687000\"",
+      "id": "tqemjkc7pumu8gn39ip63cf0cc_R20160906T190000",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=dHFlbWprYzdwdW11OGduMzlpcDYzY2YwY2NfUjIwMTYwOTA2VDE5MDAwMF8yMDE2MDkwNlQxOTAwMDBaIGFtcmFqYW4yQGlsbGlub2lzLmVkdQ",
+      "created": "2016-08-19T13:11:09.000Z",
+      "updated": "2016-11-19T20:05:56.035Z",
+      "summary": "STAT 400 Discussion",
+      "description": "Class",
+      "location": "Lincoln 1027",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-06T14:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-06T15:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161213T200000Z;BYDAY=TU"
+      ],
+      "iCalUID": "tqemjkc7pumu8gn39ip63cf0cc_R20160906T190000@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.tqemjkc7pumu8gn39ip63cf0cc",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952072000523000\"",
+      "id": "169mq229ad4k0f4epk9k191htk",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=MTY5bXEyMjlhZDRrMGY0ZXBrOWsxOTFodGtfMjAxNjA4MzBUMjAwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-29T15:53:59.000Z",
+      "updated": "2016-11-19T20:06:01.149Z",
+      "summary": "CS 125 Discussion",
+      "description": "Class",
+      "location": "Siebel 0224",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-08-30T15:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-08-30T17:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20160906T195959Z"
+      ],
+      "iCalUID": "169mq229ad4k0f4epk9k191htk@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.169mq229ad4k0f4epk9k191htk",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952237971434000\"",
+      "id": "169mq229ad4k0f4epk9k191htk_R20160906T200000",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=MTY5bXEyMjlhZDRrMGY0ZXBrOWsxOTFodGtfUjIwMTYwOTA2VDIwMDAwMF8yMDE2MDkwNlQyMDAwMDBaIGFtcmFqYW4yQGlsbGlub2lzLmVkdQ",
+      "created": "2016-08-29T15:53:59.000Z",
+      "updated": "2016-11-19T20:06:01.149Z",
+      "summary": "CS 125 Discussion",
+      "description": "Class",
+      "location": "Siebel 0224",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-06T15:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-06T17:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161213T210000Z"
+      ],
+      "iCalUID": "169mq229ad4k0f4epk9k191htk_R20160906T200000@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.169mq229ad4k0f4epk9k191htk",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952842680441000\"",
+      "id": "f535kr16m9m9qnvubj3274qrn8",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=ZjUzNWtyMTZtOW05cW52dWJqMzI3NHFybjhfMjAxNjA5MDdUMTQwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-07T13:58:28.000Z",
+      "updated": "2016-11-19T20:06:10.658Z",
+      "summary": "MATH 415 Lecture",
+      "description": "Class",
+      "location": "LIB 66",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-07T09:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-07T10:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161212T150000Z;INTERVAL=1;BYDAY=MO,WE,FR"
+      ],
+      "iCalUID": "f535kr16m9m9qnvubj3274qrn8@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.f535kr16m9m9qnvubj3274qrn8",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2951198480436000\"",
+      "id": "lf5kif1pdsn1sdvd48m8b1502c",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=bGY1a2lmMXBkc24xc2R2ZDQ4bThiMTUwMmNfMjAxNjA4MjVUMTMwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-08-19T13:14:46.000Z",
+      "updated": "2016-11-19T20:06:33.417Z",
+      "summary": "MATH 415 Discussion",
+      "description": "Class",
+      "location": "Altgeld 341",
+      "colorId": "9",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-08-25T08:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-08-25T09:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20160901T125959Z;BYDAY=TH"
+      ],
+      "iCalUID": "lf5kif1pdsn1sdvd48m8b1502c@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.lf5kif1pdsn1sdvd48m8b1502c",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952237982136000\"",
+      "id": "lf5kif1pdsn1sdvd48m8b1502c_R20160901T130000",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=bGY1a2lmMXBkc24xc2R2ZDQ4bThiMTUwMmNfUjIwMTYwOTAxVDEzMDAwMF8yMDE2MDkwMVQxMzAwMDBaIGFtcmFqYW4yQGlsbGlub2lzLmVkdQ",
+      "created": "2016-08-19T13:14:46.000Z",
+      "updated": "2016-11-19T20:06:33.417Z",
+      "summary": "MATH 415 Discussion",
+      "description": "Class",
+      "location": "Altgeld 341",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-01T08:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-01T09:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161215T140000Z;BYDAY=TH"
+      ],
+      "iCalUID": "lf5kif1pdsn1sdvd48m8b1502c_R20160901T130000@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.lf5kif1pdsn1sdvd48m8b1502c",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2959172005776000\"",
+      "id": "7amn6n9dh05sp2kp3b7t6vfdro",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=N2FtbjZuOWRoMDVzcDJrcDNiN3Q2dmZkcm9fMjAxNjA5MDlUMDAwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-08T21:41:29.000Z",
+      "updated": "2016-11-19T20:06:42.888Z",
+      "summary": "Hackerspace: Backend",
+      "description": "Class",
+      "location": "Siebel 1131",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-08T19:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-08T20:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20160922T235959Z;INTERVAL=1"
+      ],
+      "iCalUID": "7amn6n9dh05sp2kp3b7t6vfdro@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2959172005776000\"",
+      "id": "7amn6n9dh05sp2kp3b7t6vfdro_R20160923T000000",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=N2FtbjZuOWRoMDVzcDJrcDNiN3Q2dmZkcm9fUjIwMTYwOTIzVDAwMDAwMF8yMDE2MDkyM1QwMDAwMDBaIGFtcmFqYW4yQGlsbGlub2lzLmVkdQ",
+      "created": "2016-09-08T21:41:29.000Z",
+      "updated": "2016-11-19T20:06:42.888Z",
+      "summary": "Hackerspace: Backend",
+      "description": "Class",
+      "location": "Siebel 1214",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-22T19:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-22T20:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161209T010000Z;INTERVAL=1"
+      ],
+      "iCalUID": "7amn6n9dh05sp2kp3b7t6vfdro_R20160923T000000@google.com",
+      "sequence": 0,
+      "reminders": {
+        "useDefault": true
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2952842747097000\"",
+      "id": "5laaqmkjhcg6j3ovrdrj1aqh28",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=NWxhYXFta2poY2c2ajNvdnJkcmoxYXFoMjhfMjAxNjA5MDlUMTkwMDAwWiBhbXJhamFuMkBpbGxpbm9pcy5lZHU",
+      "created": "2016-09-07T13:58:50.000Z",
+      "updated": "2016-11-19T20:06:56.404Z",
+      "summary": "CS 125 Lecture",
+      "description": "Class",
+      "location": "Siebel 1404",
+      "colorId": "8",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-09-09T14:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "end": {
+        "dateTime": "2016-09-09T15:00:00-05:00",
+        "timeZone": "America\/Chicago"
+      },
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20161212T200000Z;INTERVAL=1;BYDAY=MO,WE,FR"
+      ],
+      "iCalUID": "5laaqmkjhcg6j3ovrdrj1aqh28@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.5laaqmkjhcg6j3ovrdrj1aqh28",
+      "reminders": {
+        "useDefault": false
+      }
+    },
+    {
+      "kind": "calendar#event",
+      "etag": "\"2959172435286000\"",
+      "id": "gpp9s2l5ai1kabqhbg9hrbib4c",
+      "status": "confirmed",
+      "htmlLink": "https:\/\/www.google.com\/calendar\/event?eid=Z3BwOXMybDVhaTFrYWJxaGJnOWhyYmliNGMgYW1yYWphbjJAaWxsaW5vaXMuZWR1",
+      "created": "2016-11-19T20:10:17.000Z",
+      "updated": "2016-11-19T20:10:17.643Z",
+      "summary": "Rawr",
+      "creator": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "organizer": {
+        "email": "amrajan2@illinois.edu",
+        "self": true
+      },
+      "start": {
+        "dateTime": "2016-11-24T14:00:00-06:00"
+      },
+      "end": {
+        "dateTime": "2016-11-24T15:00:00-06:00"
+      },
+      "iCalUID": "gpp9s2l5ai1kabqhbg9hrbib4c@google.com",
+      "sequence": 0,
+      "hangoutLink": "https:\/\/plus.google.com\/hangouts\/_\/illinois.edu\/amrajan2?hceid=YW1yYWphbjJAaWxsaW5vaXMuZWR1.gpp9s2l5ai1kabqhbg9hrbib4c",
+      "reminders": {
+        "useDefault": true
+      }
+    }
+  ]
+}

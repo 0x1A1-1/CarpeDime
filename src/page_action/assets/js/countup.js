@@ -5,7 +5,7 @@
 var minutesLabel = document.getElementById("minutes");
 var secondsLabel = document.getElementById("seconds");
 var totalSeconds = 0;
-var rate = 50;
+var rate = 1.29;
 var money = document.getElementById("money");
 var duration = 0;
 setInterval(setTime, 1000);
@@ -32,5 +32,3 @@ function pad(val)
         return valString;
     }
 }
-
-

@@ -92,27 +92,96 @@ function renderStatus(statusText) {
   document.getElementById('status').textContent = statusText;
 }
 
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   getCurrentTabUrl(function(url) {
+//     // Put the image URL in Google search.
+//     renderStatus('Performing Google Image search for ' + url);
+//
+//     getImageUrl(url, function(imageUrl, width, height) {
+//
+//       renderStatus('Search term: ' + url + '\n' +
+//           'Google image search result: ' + imageUrl);
+//       var imageResult = document.getElementById('image-result');
+//       // Explicitly set the width/height to minimize the number of reflows. For
+//       // a single image, this does not matter, but if you're going to embed
+//       // multiple external images in your page, then the absence of width/height
+//       // attributes causes the popup to resize multiple times.
+//       imageResult.width = width;
+//       imageResult.height = height;
+//       imageResult.src = imageUrl;
+//       imageResult.hidden = false;
+//
+//     }, function(errorMessage) {
+//       renderStatus('Cannot display image. ' + errorMessage);
+//     });
+//   });
+// });
+var classes = [];
 document.addEventListener('DOMContentLoaded', function() {
-  getCurrentTabUrl(function(url) {
-    // Put the image URL in Google search.
-    renderStatus('Performing Google Image search for ' + url);
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', "http://localhost:8000", true);
+  xhr.send();
 
-    getImageUrl(url, function(imageUrl, width, height) {
+  xhr.onreadystatechange = processRequest;
 
-      renderStatus('Search term: ' + url + '\n' +
-          'Google image search result: ' + imageUrl);
-      var imageResult = document.getElementById('image-result');
-      // Explicitly set the width/height to minimize the number of reflows. For
-      // a single image, this does not matter, but if you're going to embed
-      // multiple external images in your page, then the absence of width/height
-      // attributes causes the popup to resize multiple times.
-      imageResult.width = width;
-      imageResult.height = height;
-      imageResult.src = imageUrl;
-      imageResult.hidden = false;
+  function processRequest(e) {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+        // var response = JSON.parse(xhr.responseText);
+        var events = JSON.parse(xhr.responseText).items;
+        console.log(events);
 
-    }, function(errorMessage) {
-      renderStatus('Cannot display image. ' + errorMessage);
-    });
-  });
+        events.forEach( function(arrayItem){
+            if(arrayItem.description == "Class"){
+              classes.push(arrayItem);
+            }
+        });
+        console.log(classes);
+        fillDays();
+        //alert(response);
+        // for (event in events) {
+        //   console.log(event.colorId);
+       // 	// 	if(event.description == "class"){
+        //   //   console.log("hey")
+       // 	// 		classes.append(event);
+       // 	// 	}
+       // 	}
+        //alert(classes);
+    }
+  }
 });
+
+var monday = {};
+var tuesday = {};
+var wednesday = {};
+var thursday = {};
+var friday = {};
+var totalTime = 0;
+
+function fillDays(){ //fill dictionary, add to totalTime
+  classes.forEach( function(event){
+		var startTime = new Date(event.start.dateTime);
+		var endTime = new Date(event.end.dateTime);
+		var duration = Math.abs(endTime.getTime() - startTime.getTime())/60000;
+		totalTime += duration;
+
+    if(startTime.getDay() == 1){
+      monday[startTime.getHours()] = duration;
+    } else if(startTime.getDay() == 2){
+      tuesday[startTime.getHours()] = duration;
+    } else if(startTime.getDay() == 3){
+      wednesday[startTime.getHours()] = duration;
+    } else if(startTime.getDay() == 4){
+      thursday[startTime.getHours()] = duration;
+    } else if(startTime.getDay() == 5){
+      friday[startTime.getHours()] = duration;
+    }
+	});
+
+  getRate();
+}
+
+function getRate(){
+  console.log(1285/totalTime);
+	return 1285/totalTime;
+}

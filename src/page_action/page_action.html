@@ -6,17 +6,18 @@
 		height: 150px;
 		font-size: 100%;
 		margin:3px;
+		background: url(giphy.gif) no-repeat;
 	}
 	#mainPopup {
 		position: relative;
 		/*top: -175px;*/
-		padding: 10px;
 		height: 150px;
+		padding:15px;
 		width: 250px;
 		font-family:'Agency FB';
 		letter-spacing: 1px;
 		color: white;
-		background: url(giphy.gif) no-repeat;
+		background: rgba(0, 0, 0, 0.5);
 	}
 	#counter-default .timer-number {
 		float: left;
@@ -26,13 +27,13 @@
     font-family:'Agency FB';
     color:#fff;
     line-height: 1;
-    background-color: rgba(0, 0, 0, 0.4);
+    /*background-color: rgba(0, 0, 0, 0.4);*/
 		padding: 1.5px;
 		padding-left: 16px;
 	}
 
 	.money-number{
-		background-color: rgba(0, 0, 0, 0.4);
+		/*background-color: rgba(0, 0, 0, 0.4);*/
 		font-size: 20px;
 		font-weight: 900;
 		text-align: center;
@@ -46,14 +47,16 @@
 		text-align: center;
 	}
 	.timer-text{
-		background-color: rgba(0, 0, 0, 0.4);
+		/*background-color: rgba(0, 0, 0, 0.4);*/
 		text-align: center;
 		padding: 3px;
 		float: left
 	}
-
+	#money{
+		font-size: 20px;
+	}
 	.timer-text1{
-		background-color: rgba(0, 0, 0, 0.4);
+		/*background-color: rgba(0, 0, 0, 0.4);*/
 		font-size: 10px;
 	}
 
@@ -90,7 +93,7 @@
 			padding:3px 8px;
 			text-decoration:none;
 			position:relative;
-			left: 60px;
+			left: 35px;
 			bottom: -10px;
 		}
 		.myButton:hover {
@@ -126,7 +129,7 @@
 							<div id="counter-default" class="row">
 									<div class="col-md-3 col-sm-6 col-xs-12">
 											<div class="inner">
-													<div class="timer-text1">SITE: EXAMPLESITE.COM</div>
+													<div id="currURL"></div>
 													<br/>
 													<div class="timer-text1">MONEY BURNED: </div>
 													<div class="timer-text2">$</div>
@@ -153,27 +156,29 @@
 										<div id="counter-default" class="row">
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div id="hour-number"></div>
-																<div class="timer-text">hour</div>
 
+															<div id="hour" class="timer-number">0</div>
+															<div class="timer-text">hour</div>
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div>Minutes: </div>
-																<label id="minutes">00</label>
+
+																<div id="minutes" class="timer-number">00</div>
+																		<div class="timer-text">mins</div>
 														</div>
 												</div>
 												<div class="col-md-3 col-sm-6 col-xs-12">
 														<div class="inner">
-																<div>Seconds: </div>
-																<label id="seconds">10</label>
+
+																<div id="seconds" class="timer-number">10</div>
+																<div class="timer-text">secs</div>
 														</div>
 												</div>
 										</div>
 						</div>
 				 </div>
-				 <a href="#" class="myButton">I'm working</a>
+				 <a href="#" class="myButton">But hey I'm working</a>
 		 <!--END MAIN ROW SECTION -->
 		</div>
 </div>
@@ -201,6 +206,6 @@
 <!--<script src="assets/plugins/vegas/jquery.vegas.min.js"></script> -->
  <!-- CUSTOM SCRIPTS -->
 <script src="assets/js/custom-image.js"></script>
-	<script>
+	<script src="page_action.js">
   </script>
 <script src="../../js/popup.js"></script>
