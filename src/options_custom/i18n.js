@@ -11,8 +11,8 @@ this.i18n = {
         "en": "No matches were found.",
         "de": "Keine Übereinstimmungen gefunden."
     },
-    
-    
+
+
     "information": {
         "en": "Information",
     },
@@ -32,17 +32,17 @@ this.i18n = {
         "en": "End Date:",
     },
     "x-amount": {
-        "en": "value between 0 and 1 million",
+        "en": "Average semester is around $10,000",
         "de": "6 - 12 Zeichen"
     },
     "x-date": {
-        "en": "MM/DD/YY",
+        "en": "YYYY-MM-DD",
     },
     "t-description": {
-        "en": "Please insert your tuition amount for a year of schooling!",
+        "en": "Please insert your tuition amount for one semester of school!",
     },
     "s-description": {
-        "en": "Let us know how long one semester runs so we can better serve you!",
+        "en": "Your semester's looking good.",
     },
 
 };

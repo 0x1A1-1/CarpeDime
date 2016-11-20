@@ -5,11 +5,11 @@ window.addEvent("domready", function () {
             alert("You clicked me!");
         });
     });*/
-
+    
     // Option 2: Do everything manually:
 
     var settings = new FancySettings("My Extension", "icon.png");
-
+    
     var tuition = settings.create({
         "tab": i18n.get("information"), //tuition
         "group": i18n.get("tuition"),
@@ -18,7 +18,7 @@ window.addEvent("domready", function () {
         "label": i18n.get("username"),
         "text": i18n.get("x-amount")
     });
-
+    
     var tDescription = settings.create({
         "tab": i18n.get("information"),
         "group": i18n.get("tuition"),
@@ -44,7 +44,7 @@ window.addEvent("domready", function () {
         "label": i18n.get("endDate"),
         "text": i18n.get("x-date"),
     });
-
+    
     var sDescription = settings.create({
         "tab": i18n.get("information"),
         "group": i18n.get("semester"),
@@ -52,12 +52,12 @@ window.addEvent("domready", function () {
         "type": "description",
         "text": i18n.get("s-description")
     });
-
+    
     // ...
-
+    
     settings.align([
         begDate,
         endDate
     ]);
-
+    
 });
